@@ -1,0 +1,69 @@
+header{
+  background-color: #5b7989;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    position: fixed;
+    top: 0px;
+    width: 99%;
+    height: 12%;
+}
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  position: fixed;
+}
+header a{
+  text-decoration: none;
+  text-align: right;
+
+}
+footer{
+  background-color: #C6d5c5;
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  height: 70px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+nav {
+  height: 100%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+li{
+  float: right;
+  display: block;
+  margin: 15px 5px;
+  padding: 15px 0px;
+  height: 100%;
+
+}
+#imagen1{
+  margin-top: 79px;
+  margin-left: 0px;
+	perspective: 2000px;
+  -webkit-perspective: 2000px;
+  background-color:#82c3a6;
+  width: 100.2%;
+}
+.centrar {
+  text-align: center;
+<figure id="imagen1">
+		<div class="centrar" ><img src="Imagenes/imagen1.jpg"></div>
+		<figcaption></figcaption>
+	 </figure>
+<figure id="imagen2">
+		   <img src="Imagenes/imag1.jpg">
+		<figcaption>Paisajes</figcaption>
+	 </figure>
+	 <figure id="imagen3">
+		  <img src="Imagenes/imag2.jpg">
+	   <figcaption>Retratos</figcaption>
+	</figure>
+</div>
