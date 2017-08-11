@@ -67,3 +67,95 @@ li{
 	   <figcaption>Retratos</figcaption>
 	</figure>
 </div>
+
+
+
+---------------------------------------------------------------------------------------
+<h1>Comenzando con la fotografia</h1>
+      <nav>
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Paisaje">Paisaje</a></li>
+          <li><a href="#Retratos">Retratos</a></li>
+        </ul>
+      </nav>
+------------------------------------------------------------------------------------------
+.container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  	
+}
+
+.................................................................
+transform: translateX(20px);  
+-webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio galer?a de im?genes</title>
+<style type="text/css">
+#galeria {
+	/* En el navegador Internet Explorer versi?n 6 y anteriores no funciona la propiedad "max-width" */
+	max-width: 650px;
+}
+#galeria img {
+	float: left;
+	margin: 1em;
+	padding: .5em;
+	border: 1px solid #CCC;
+}
+</style>
+</head>
+
+<body>
+<div id="galeria">
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+<img src="../../comun/imagenes/imagen.png" alt="Imagen generica" />
+</div>
+</body>
+</html>
